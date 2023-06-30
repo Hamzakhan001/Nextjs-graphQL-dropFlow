@@ -1,9 +1,11 @@
 import React from 'react'
 
-function page() {
+function home() {
   return (
-	<div>Home</div>
+	<section className='flex-start flex-col paddings mb-16'>
+		
+	</section>
   )
 }
 
-export default page
+export default home

@@ -55,6 +55,13 @@ const Footer = (props: Props) => {
 
 				<FooterColumn title = {footerLinks[6].title} links = {footerLinks[6].links} /> 
 			</div>
+
+			<div className='flexBetween footer_copyright'>
+				<p>@ 2023 Flexible.All right reserved</p>
+				<p className='text-gray'>
+					<span className='text-black font-semibold'> 30</span> projects submitted
+				</p>
+			</div>
 		</div>
 	</footer>
   )
